@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+h2,h3{
+color: #A020F0;
+}
+
+/* Os itens se expandem igualmente para ocupar o container. Utilizando apenas o flex-grow, o crescimento é distribuído igualmente antes e depois do conteúdo de cada elemento. (pois por padrão o flex-basis é auto) */
+.grow1 {
+	flex-grow: 1;
+}
+
+/* Os itens se expandem duas vezes mais que aqueles com flex-grow: 1; */
+
+.item {
+	margin: 5px;
+	background: #A020F0;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* Flex Container */
+.container {
+	max-width: 10000000px;
+	margin: 100 auto;
+	display:flex;
+	border: 1px solid #ccc;
+}
+/* Flex Item */
+
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+fieldset{
+background-color:#A020F0;
+}
+</style>
+<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+    <img src="imagem/av.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+  </a>
+
+    <center>
+        <fieldset>
+        <a href="tela_inicial.html" target="_blank">INICIO</a> <a
+        href="contato.html" target="_blank">CONTATO</a> <a href="blog.html"
+        target="_blank">BLOG</a></fieldset>
+    <fieldset><div class="w3-container" width="500px">
+            <h1>Virtuosa moda</h1>
+            <p>Loja virtual de roupas evangelicas</p></center>
+        </div><div class="logo">
+                <img src="imagem/v.png" alt="Logomarca" width="80px">
+        </div>
+        </fieldset></center>
+    
+<section class="container column-reverse">
+	<div class="item grow1">SAIAS</div>
+	<div class="item grow1">BLUSAS</div>
+	<div class="item grow1">VESTIDOS</div>
+</section>
+
+
+
+<div class="w3-row-padding">
+<div class="w3-third">
+<h2>SAIAS</h2>
+<a href="logins.html">
+<img src="imagem/saia.png" alt="Descrição da imagem" width="300px">
+</a>
+</div>
+
+<div class="w3-third">
+<h2>BlUSAS</h2>
+<a href="loginB.html">
+<img src="imagem/blusa.jpg" alt="Descrição da imagem" width="400px">
+</a>
+</div>
+
+<div class="w3-third">
+<h2>VESTIDOS</h2>
+<a href="loginv.html">
+<img src="imagem/vestido.jpg" alt="vestido" width="300px">
+</a>
+</div>
+<footer>
+<center>
+<div class="contact-info">
+    <h3>Entre em Contato</h3>
+    <p>Endereço: Antônia de Lima Paiva - Nova Esperança, Parnamirim -
+    RN</p>
+    <p>Telefone: (84) 99195-2610</p>
+    <p>Email: contato@empresa.com</p>
+</div></center>
+</footer>
+</body>
+</html>
